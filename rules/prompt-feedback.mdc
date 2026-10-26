@@ -1,0 +1,23 @@
+---
+description: After each reply, review the user's prompt grammar and show a clearer rewrite
+alwaysApply: true
+---
+
+# Prompt feedback
+
+After finishing the main answer to the user's latest message, add a short section titled **Prompt feedback**:
+
+1. Briefly note any grammar, spelling, or clarity issues in their latest prompt.
+2. Show one improved rewrite of how they could have written that prompt.
+
+## Format
+
+- Keep it short (3–6 lines).
+- Put this section **after** the main answer, never instead of it.
+- If the prompt was already clear and correct, write: `Prompt feedback: no changes needed.`
+
+## Example
+
+**Prompt feedback**
+- "for each of my prompt" → use plural: "prompts"
+- Clearer: "After each of my prompts finishes, check grammar and show a better rewrite. How do I set that up?"
